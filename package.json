@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+    "engines": {
+    "node": "16.14.2"
+  },
   "scripts": {
     "test": "jest --coverage",
     "start": "node app/index.js",
