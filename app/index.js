@@ -12,7 +12,7 @@ app.use(logger).use('/api', api).set('json spaces', 2);
 /* istanbul ignore next */
 if (require.main === module) {
 	app.listen(port, () => {
-		console.log(`Server listening on port ${port} [env:${NODE_ENV}]`);
+		console.log(`Server listening on port ${port} [Env:${NODE_ENV}]`);
 	});
 }
 
